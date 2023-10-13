@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+     <!-- ***************************************************************************************************************** -->
+
+     <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg  border-bottom border-2 border-secondary fs-5 ">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-5 fs-4" href="#">Fiducia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-right">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+
+
+            <div class="d-flex float-right">
+            <li class="nav-item  ">
+              <a class="nav-link " href="#">START FEEDBACK &nbsp;&nbsp;</a>
+             
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">QUESTION INPUT FEEDBACK &nbsp;&nbsp;</a>
+             
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">SEE ANSWERS &nbsp;&nbsp;</a>
+             
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">RESET FEEDBACK FORM &nbsp;&nbsp;</a>
+             
+            </li>
+
+            </div>
+            
+            
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <h1 style="text-align: center;"><B>ALL COMPONENTS LIST ✨</B> </h1> <br>
+
+    <!-- 1. ALERT POSITIVE -->
+
+    <h3>1. ALERT SUCCESS</h3> 
+
+    <div className='container'>
+        <div><div class="alert alert-success alert-dismissible fade show" role="alert">
+  Transaction successfully completed. Bingo
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div></div>
+
+<br><br>
+
+  <!-- 2. BUTTON --> 
+
+  <h3>2. BUTTON</h3> 
+
+  <div class="d-grid gap-2 col-3 mx-5 "> <button type="button" class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark" >Button</button></div>
+
+  <br><br>
+
+  <!-- 3. FORM -->
+
+  <h3>3. FORM</h3> 
+
+      <form>
+        <div class=" mb-3 flex m-5 col-5">
+          <label class="form-label ">Number of Candidates</label>
+          <input type="text" class="form-control border-black border-2 rounded-pill form-control-lg" id="exampleTo" />
+        </div>
+     
+        <button type="button" class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark m-5" >Submit</button>
+      </form>
+    </div>
+       
+       </div>
+
+       <br><br>
+
+       <!-- 4. RADIO BUTTON -->
+
+       <h3>4. RADIO BUTTONS</h3> 
+
+       <h4 class="m-5">VOTE</h4><br> 
+      
+      <div class=" col-2 btn-group-vertical m-5" role="group" aria-label="Vertical radio toggle button group">
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked>
+        <label class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark" for="vbtn-radio1">Yatin</label> <br>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off">
+        <label class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark" for="vbtn-radio2">Jatin</label> <br>
+        <input type="radio" class="btn-check" name="vbtn-radio" id="vbtn-radio3" autocomplete="off">
+        <label class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark" for="vbtn-radio3">Latin</label>
+      </div>
+
+      <div class="d-grid gap-2 col-3 mx-5 ">
+        <button class="btn border-black border-2 rounded-pill btn-lg btn-outline-dark"  type="button">Vote</button> 
+        
+      </div>
+
+      <br><br>
+
+      <!-- 5. ALERT NEGATIVE -->
+
+      <h3>5. ALERT FAILED</h3> 
+
+      <div className='container'>
+        <div><div class="alert alert-danger alert-dismissible fade show" role="alert">
+  You have rejected the transaction. Please try again
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+
+        </div>
+
+        <br><br>
+
+      <!-- ***************************************************************************************************************** -->
+
+<!-- BOOTSTRAP SRC -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
